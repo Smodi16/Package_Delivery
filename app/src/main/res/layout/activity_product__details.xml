@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pd"
+    tools:context=".Product_Details">
+
+
+    <TextView
+        android:id="@+id/product_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:fontFamily="@font/acme"
+        android:text="Product Details"
+        android:textColor="@android:color/background_light"
+        android:textSize="30dp" />
+
+    <CheckBox
+        android:id="@+id/product1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/acme"
+        android:text="Toblerone White Chocolate Large Bar 400g"
+        android:textColor="@android:color/background_light"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/product1"
+        android:layout_toEndOf="@+id/product_details"
+        android:text="13.33 USD"
+        android:textSize="10dp" />
+
+    <CheckBox
+        android:id="@+id/product2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/product1"
+        android:layout_marginTop="191dp"
+        android:fontFamily="@font/acme"
+        android:text="Ferrero Rocher Collection 24 Pieces 260g"
+        android:textColor="@android:color/background_light"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/product2"
+        android:layout_toEndOf="@+id/product_details"
+        android:text="13.75 USD"
+        android:textSize="10dp" />
+
+    <CheckBox
+        android:id="@+id/product3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/product1"
+        android:layout_marginTop="239dp"
+        android:fontFamily="@font/acme"
+        android:text="Daim Chocolate Party Bag 1kg"
+        android:textColor="@android:color/background_light"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/price3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/product3"
+        android:layout_toEndOf="@+id/product_details"
+        android:text="27.50 USD"
+        android:textSize="10dp" />
+
+    <CheckBox
+        android:id="@+id/product4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/product5"
+        android:layout_alignStart="@+id/product1"
+        android:fontFamily="@font/acme"
+        android:layout_marginBottom="30dp"
+        android:text="Goldkenn Metal Mini Safe Chocolate Box 200g"
+        android:textColor="@android:color/background_light"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/price4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/product4"
+        android:layout_toEndOf="@+id/product_details"
+        android:text="13.11 USD"
+        android:textSize="10dp"/>
+
+    <CheckBox
+        android:id="@+id/product5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/product1"
+        android:layout_marginBottom="185dp"
+        android:fontFamily="@font/acme"
+        android:text="Crispo Assorted Chocolate Bag 1kg"
+        android:textColor="@android:color/background_light"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/price5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/product5"
+        android:layout_toEndOf="@+id/product_details"
+        android:text="14.44 USD"
+        android:textSize="10dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="18dp"
+        android:background="@android:color/background_light"
+        android:fontFamily="@font/acme"
+        android:text="NEXT" />
+
+</RelativeLayout>

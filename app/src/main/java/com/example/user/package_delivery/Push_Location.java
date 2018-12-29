@@ -22,4 +22,16 @@ public class Push_Location {
     public void setLongitude(double longitude) {
         this.longitude = longitude;
     }
+
+    public String getLoactionid() {
+        return loactionid;
+    }
+
+    public double getLatitude() {
+        return latitude;
+    }
+
+    public double getLongitude() {
+        return longitude;
+    }
 }
